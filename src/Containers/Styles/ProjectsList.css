@@ -1,0 +1,89 @@
+.infim-home canvas {
+  max-width: 100% !important; }
+
+.infim-home .searcher-bar {
+  display: block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-bottom: 80px; }
+  .infim-home .searcher-bar .search-module {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    width: 40%; }
+  .infim-home .searcher-bar .number-results {
+    height: 80%s;
+    background-color: #dd71b8;
+    padding: 0 1.5%;
+    color: white;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: auto; }
+  .infim-home .searcher-bar .input-search-projects {
+    width: 82%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: inline-block; }
+
+.infim-home .projects-list {
+  background: white;
+  margin: auto;
+  margin-top: 20px;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3px; }
+  @media screen and (max-width: 630px) {
+    .infim-home .projects-list {
+      grid-template-columns: 1fr 1fr; } }
+  @media screen and (max-width: 520px) {
+    .infim-home .projects-list {
+      grid-template-columns: 1fr; } }
+  .infim-home .projects-list .project-card {
+    background: white;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    height: 200px;
+    cursor: pointer;
+    overflow: hidden; }
+    .infim-home .projects-list .project-card .project-info {
+      position: absolute;
+      width: 100%; }
+      .infim-home .projects-list .project-card .project-info .location, .infim-home .projects-list .project-card .project-info .title, .infim-home .projects-list .project-card .project-info .subtitle {
+        position: relative;
+        display: block;
+        color: white;
+        background: #8b00ff;
+        height: auto;
+        padding: 5px;
+        z-index: 2;
+        font-weight: bold;
+        -webkit-line-clamp: unset;
+        -webkit-line-clamp: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        margin: auto; }
+      .infim-home .projects-list .project-card .project-info .title {
+        text-transform: uppercase;
+        right: 100%;
+        font-size: 16px; }
+      .infim-home .projects-list .project-card .project-info .subtitle {
+        background-color: #00ff9b;
+        left: 100%;
+        font-size: 12px;
+        color: black;
+        font-style: oblique; }
+      .infim-home .projects-list .project-card .project-info .location {
+        background-color: #0048ff;
+        bottom: -150px;
+        font-size: 12px; }
+
+.infim-home .project-image {
+  width: 100%;
+  height: 100%; }

@@ -1,0 +1,25 @@
+.footer-section {
+  position: relative;
+  height: auto;
+  margin-top: 40px;
+  border-top: 1px dashed black; }
+  .footer-section .copyright {
+    text-align: right;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 15px; }
+  .footer-section .social-network-section {
+    margin: 5px 0 0 10px;
+    color: black; }
+    .footer-section .social-network-section a {
+      color: black; }
+      .footer-section .social-network-section a:hover {
+        color: #8b00ff; }
+      .footer-section .social-network-section a i {
+        display: inline-block;
+        width: auto;
+        padding: 2px;
+        font-size: 26px;
+        margin-right: 10px;
+        cursor: pointer; }

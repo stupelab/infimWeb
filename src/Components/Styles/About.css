@@ -1,0 +1,41 @@
+.about-section {
+  width: 100%; }
+  .about-section .infim-image {
+    margin-top: 40px;
+    position: relative; }
+    .about-section .infim-image img {
+      width: 70%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      opacity: 0.6;
+      filter: grayscale(100%); }
+    .about-section .infim-image .text-image {
+      position: absolute;
+      width: 100%;
+      top: -3%;
+      font-size: 30px;
+      font-size: 11.5vw;
+      text-align: center;
+      font-style: italic;
+      letter-spacing: -1vw; }
+      .about-section .infim-image .text-image .infim-text {
+        display: block;
+        color: transparent; }
+      .about-section .infim-image .text-image .purple {
+        -webkit-text-stroke: 1px #8b00ff;
+        color: #8b00ff30;
+        margin-left: -50%; }
+      .about-section .infim-image .text-image .green {
+        -webkit-text-stroke: 1px #00ff9b;
+        color: #00ff9b30; }
+      .about-section .infim-image .text-image .blue {
+        -webkit-text-stroke: 1px #0048ff;
+        color: #0048ff30;
+        margin-left: 50%; }
+  .about-section .manifest-section {
+    margin-top: 40px;
+    width: 85%;
+    margin: 30px auto;
+    justify-content: center;
+    text-align: center; }
